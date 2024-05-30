@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,8 @@
         <script>
             alert("Você foi bloqueado por tentar fazer login incorretamente 3 vezes.");
         </script>
-        <form id="resetForm" action="../model/resetar_tentativas.php"   method="post">
-            <button type="submit">Retornar para a página de login</button>
+        <form id="resetForm" action="../controller/logout.php" method="post">
+            <button type="submit" id="btnSubmit">Logout</button>
         </form>
     </div>
 </body>
